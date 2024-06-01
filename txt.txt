@@ -1,0 +1,28 @@
+
+ ports : 8088:80
+a porta esq = porta do pc local
+a porta da direita é a porta do serviço
+
+
+O que estiver nessa pasta sserá executado
+- ./htdocs:/usr/local/apache2/htdocs/
+
+
+networks :
+Quando tiver um db com um container e precisa
+se comunicar(ter acesso) com outro container.
+
+
+bridge: O driver de rede padrão. Se você não especificar um driver, este é o tipo de rede que você está criando. As redes bridge são comumente usadas quando seu aplicativo é executado em um contêiner que precisa se comunicar com outros contêineres no mesmo host. 
+
+
+
+
+
+
+
+
+
+
+
+

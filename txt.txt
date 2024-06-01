@@ -16,6 +16,12 @@ se comunicar(ter acesso) com outro container.
 bridge: O driver de rede padrão. Se você não especificar um driver, este é o tipo de rede que você está criando. As redes bridge são comumente usadas quando seu aplicativo é executado em um contêiner que precisa se comunicar com outros contêineres no mesmo host. 
 
 
+ssh ubuntu@ip da maquina local
+
+cd .ssh/
+vim authorized_keys
+-no fim add a chave github
+
 
 
 
